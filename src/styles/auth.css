@@ -1,0 +1,81 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../assets/background.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  text-align: center;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #dfdfdf;
+}
+
+.control {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 8px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.alert {
+  border: 1px solid red;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  height: 40px;
+  background-color: #2980b9;
+  color: white;
+  font-size: medium;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2573a7;
+  cursor: pointer;
+}
+
+.changer {
+  color: #195b87;
+  font-size: medium;
+}
+
+.changer:hover {
+  color: rgb(39, 38, 38);
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.title {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.back img {
+  width: 40px;
+}
+
+.error {
+  color: rgb(222, 42, 42);
+  margin-bottom: 10px;
+}

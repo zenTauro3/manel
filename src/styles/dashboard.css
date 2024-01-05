@@ -1,0 +1,16 @@
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-danger{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 100px;
+}
+
+.btn-danger:hover{
+    cursor: pointer;
+}
